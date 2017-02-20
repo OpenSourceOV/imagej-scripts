@@ -1,4 +1,4 @@
-macro "CC Measure Stack" {
+macro "OSOV Measure Stack" {
      saveSettings;
      setOption("Stack position", true);
      for (n=1; n<=nSlices; n++) {

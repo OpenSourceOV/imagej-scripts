@@ -2,7 +2,7 @@ var optSliceFrom;
 var optSliceTo;
 var optClearColour = "white";
 
-macro "CC Clear Slices" {
+macro "OSOV Clear Slices" {
 
 	// Get the details of the current stack
 	Stack.getDimensions(ww, hh, channels, slices, frames);

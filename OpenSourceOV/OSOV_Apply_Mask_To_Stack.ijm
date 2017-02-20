@@ -3,7 +3,7 @@ var maskStack = "";
 var colourStack = "";
 var overlayOpacity = 50;
 
-macro "CC Apply Mask To Stack" {
+macro "OSOV Apply Mask To Stack" {
 
 	getSettings();
 

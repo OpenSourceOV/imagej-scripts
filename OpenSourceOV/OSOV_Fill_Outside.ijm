@@ -1,6 +1,5 @@
-macro "CC Clear Outside" {
+macro "OSOV Fill Outside" {
   run("Make Inverse");
-  setForegroundColor(255, 255, 255);
   run("Fill", "slice");
   run("Select None");
 }

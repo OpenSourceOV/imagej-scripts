@@ -1,5 +1,5 @@
 
-macro "CC Image Difference" {
+macro "OSOV Image Difference" {
 
 	setBatchMode(true);
 

@@ -8,7 +8,7 @@ var optScale = SCALE_SLICE;
 var optLUTRangeFrom = 0;
 var optLUTRangeTo = 255;
 
-macro "CC Colour Slices" {
+macro "OSOV Colour Slices" {
 
 	// Get the details of the current stack
 	Stack.getDimensions(ww, hh, channels, slices, frames);
