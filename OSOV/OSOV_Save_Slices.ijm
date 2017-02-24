@@ -25,7 +25,6 @@ macro "OSOV Save Slices" {
 				bClear = false;
 			}
 		}
-		print("Clear slice " + n + '? ' + bClear);
 		if(bClear) {
 			clearSlice(n);
 		}
@@ -42,7 +41,7 @@ function clearSlice(sliceN) {
 
 function getSettings() {
  	Dialog.create("Clear Settings");
-	Dialog.addString("Save slices:", optSavedSlices);
+	Dialog.addString("Save slices (comma separated):", optSavedSlices);
 	Dialog.addChoice("Clear Colour:", newArray("white", "black"));
 	Dialog.show();
  	optSavedSlices = Dialog.getString();
