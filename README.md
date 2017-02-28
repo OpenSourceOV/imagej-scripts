@@ -1,4 +1,4 @@
-# OpenSource Optival Vulnerability (OSOV) ImageJ Tools
+# OpenSource Optical Vulnerability (OSOV) ImageJ Scripts
 
 ## Installation
 
