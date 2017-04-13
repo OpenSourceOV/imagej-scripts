@@ -2,6 +2,8 @@
 
 ## Installation
 
+[Download the latest version](https://github.com/OpenSourceOV/imagej-scripts/archive/master.zip) and unzip.
+
 In the ImageJ directory...
 
 * Put the OSOV folder in the plugins directory (e.g. c:\ImageJ\plugins\OSOV)
