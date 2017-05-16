@@ -25,6 +25,7 @@ requires("1.50a");
 		"Clear Outside",
 		"Fill Outside",
 		"Z Project",
+		"Cumulative Z Project",
 		"Remove Outliers",
 		"Split Channels",
 		"Merge Channels",
@@ -46,6 +47,7 @@ requires("1.50a");
 			else if (menuCmd=="Apply Mask To Stack") { run("OSOV Apply Mask To Stack"); }
 			else if (menuCmd=="Stack Contrast Adjustment") { run("Stack Contrast Adjustment"); }
 			else if (menuCmd=="Z Project") { run("Z Project...", "projection=[Max Intensity]"); }
+			else if (menuCmd=="Cumulative Z Project") { run("OSOV Cumulative Z Project"); }
 			else if (menuCmd=="Remove Outliers") { run("Remove Outliers..."); }
 			else if (menuCmd=="Split Channels") { run("Split Channels"); }
 			else if (menuCmd=="Merge Channels") { run("Merge Channels..."); }
