@@ -56,7 +56,7 @@ requires("1.50a");
 			else if (menuCmd=="Clear Outside") { run("OSOV Clear Outside"); }
 			else if (menuCmd=="Fill Outside") { run("OSOV Fill Outside"); }
 			else if (menuCmd=="Clear Slice") { run("OSOV Clear Slice"); }
-			else if (menuCmd=="Crop and Align Images") { run("OSOV Crop And Align Images"); }
-			else if (menuCmd==""Guided Subtraction and Image Analysis"") { run("OSOV Guided Subtraction and Image Analysis"); }
+			else if (menuCmd=="Crop and Align Images") { run("OSOV Crop and Align Images"); }
+			else if (menuCmd=="Guided Subtraction and Image Analysis") { run("OSOV Guided Subtraction and Image Analysis"); }
 		}
 	}
