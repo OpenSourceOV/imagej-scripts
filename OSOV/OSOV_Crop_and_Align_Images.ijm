@@ -1,8 +1,8 @@
-//Crop and align a sequence of images one by one (rather than in a huge image stack)
-//Script by Markus Nolf, m.nolf@westernsydney.edu.au, https://bitbucket.org/ponycopter/leafsubtract
-//Image alignment requires plugin: https://sites.google.com/site/qingzongtseng/template-matching-ij-plugin
-
 macro "OSOV Crop And Align Images" {
+	//Crop and align a sequence of images one by one (rather than in a huge image stack)
+	//Script by Markus Nolf, m.nolf@westernsydney.edu.au, https://bitbucket.org/ponycopter/leafsubtract
+	//Image alignment requires plugin: https://sites.google.com/site/qingzongtseng/template-matching-ij-plugin
+
 	dir = getDirectory("Choose Source Directory");	
 	list = getFileList(dir);
 	nfiles = list.length;
