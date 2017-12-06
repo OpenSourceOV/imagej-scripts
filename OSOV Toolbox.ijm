@@ -18,6 +18,7 @@ requires("1.50a");
 	var filemenu = newMenu("OSOV Menu Tool", newArray(
 		"Colour Slices",
 		"Image Difference",
+		"Image Difference v2",
 //	"Image Difference (batch)",
 		"Clear Slices",
 		"Save Slices",
@@ -42,6 +43,7 @@ requires("1.50a");
 		if (menuCmd!="-") {
 			if (menuCmd=="Colour Slices") { run("OSOV Colour Slices"); }
 			else if (menuCmd=="Image Difference") { run("OSOV Image Difference"); }
+			else if (menuCmd=="Image Difference v2") { run("OSOV Image Difference v2"); }
 			else if (menuCmd=="Image Difference (batch)") { run("OSOV Batch Image Difference");}
 			else if (menuCmd=="Clear Slices") { run("OSOV Clear Slices"); }
 			else if (menuCmd=="Save Slices") { run("OSOV Save Slices"); }
