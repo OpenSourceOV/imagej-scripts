@@ -25,3 +25,33 @@ macro "OSOV Image Difference" {
 
 	setBatchMode("exit and display");
 }
+updateResults()
+
+sample_dir = getDirectory('Select the sample directory');
+
+list = getFileList(sample_dir);
+
+setBatchMode(true);
+
+results_row = 0;
+
+for(i=0; i < list.length; i++) {
+	file_name = sample_dir + list[i];
+	if(endsWith(file_name, "tif")) {
+	
+		open(file_name);
+	
+		img_width = getWidth();
+		img_height = getHeight();
+		img_name = getTitle();
+	
+		setResult("Image", results_row, img_name);
+		setResult("Height", results_row, img_height);
+		setResult("Width", results_row, img_width);
+		results_row++;
+    close();
+	}
+}
+updateResults()
+
+setBatchMode("exit and display");
