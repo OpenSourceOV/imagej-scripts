@@ -16,7 +16,7 @@ Once installed you can access the macros and plugins from the toolsets menu or t
 
 ## Problems
 
-* If the Plugin > OSOV menu doesn't list a number of items then you may have issue with the version of ImageJ. This version of ImageJ from [https://imagej.net/Fiji/Downloads#Life-Line_Fiji_versions](https://imagej.net/Fiji/Downloads#Life-Line_Fiji_versions) work:
+* If you're getting any sort of 'Not Found' errors when trying to run commands, or if the Plugin > OSOV menu doesn't list a number of items then you may have issue with the version of ImageJ. This version of ImageJ from [https://imagej.net/Fiji/Downloads#Life-Line_Fiji_versions](https://imagej.net/Fiji/Downloads#Life-Line_Fiji_versions) will work:
 
     ![](./images/older_version.png)
 
